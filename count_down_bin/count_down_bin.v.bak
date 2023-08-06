@@ -1,0 +1,12 @@
+module Cau_3(ck,rs,y);
+input ck,rs;
+output [6:0]y;
+reg [6:0]y;
+always @(posedge ck or negedge rs)
+begin 
+	if (rs == 0)
+		y <= 7'b0000000;
+	else 
+		y <= y + 1'b1;
+end
+endmodule

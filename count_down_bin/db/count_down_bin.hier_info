@@ -1,0 +1,24 @@
+|Cau_3
+rs => y[0]~reg0.ACLR
+rs => y[1]~reg0.ACLR
+rs => y[2]~reg0.PRESET
+rs => y[3]~reg0.ACLR
+rs => y[4]~reg0.ACLR
+rs => y[5]~reg0.PRESET
+rs => y[6]~reg0.PRESET
+ck => y[0]~reg0.CLK
+ck => y[1]~reg0.CLK
+ck => y[2]~reg0.CLK
+ck => y[3]~reg0.CLK
+ck => y[4]~reg0.CLK
+ck => y[5]~reg0.CLK
+ck => y[6]~reg0.CLK
+y[0] <= y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
